@@ -1,3 +1,4 @@
+import 'package:ebook_with_audio/detail_audio_page.dart';
 import 'package:ebook_with_audio/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage()
+      home: const DetailAudioPage()
     );
   }
 }
